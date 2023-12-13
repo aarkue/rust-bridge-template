@@ -1,0 +1,15 @@
+[package]
+name = "python_side"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "python_bridge"
+crate-type = ["cdylib"]
+
+[dependencies]
+main_library = {path = "../main_library"}
+pyo3 = "0.19.0"
+serde_json = "1.0.105"
+serde = {version = "1.0.188", features = ["derive"]}

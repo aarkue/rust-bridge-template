@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+	"executable",
+	"main_library",
+	"python_bridge",
+	"java_bridge",
+]

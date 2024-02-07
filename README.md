@@ -24,3 +24,6 @@ This repository serves as a template to easily start developing a shared library
   - Navigate to the `python_bridge/` directory, create a virtual environment (e.g., `python -m venv .env`) and activate it
   - Install `maturin` (https://www.maturin.rs/) in this environment (`pip install maturin`)
   - Finally, develop build and install the python library using `maturin develop --release` and then execute the `test.py` file using `python ./python_wrapper/test.py`
+
+## LICENSE
+This project is licensed under either Apache License Version 2.0 or MIT License at your option.
